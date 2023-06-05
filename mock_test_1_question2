@@ -1,0 +1,10 @@
+def findUniqueChar(st):
+    for i in st:
+        if st.count(i)==1:
+            return st.index(i)
+        else:
+            return -1
+        #if i in temp_st:
+
+st = "leetcode" #"loveleetcode" #"aabb"
+findUniqueChar(st)
