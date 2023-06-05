@@ -3,7 +3,7 @@ def findUniqueChar(st):
         if st.count(i)==1:
             return st.index(i)
         else:
-            return -1
+            return -1 
 
 st = "leetcode" #"loveleetcode" #"aabb"
 findUniqueChar(st)
