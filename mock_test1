@@ -1,0 +1,11 @@
+def pushingZeroLast(nums):
+    count_zeroes = 0
+    for i in nums:
+        if i == 0:
+            count_zeroes += 1
+            nums.remove(0)
+    nums += [0] * count_zeroes
+    return nums
+
+nums = [0,1,0,3,12]
+pushingZeroLast(nums)
