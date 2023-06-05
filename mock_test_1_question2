@@ -4,7 +4,6 @@ def findUniqueChar(st):
             return st.index(i)
         else:
             return -1
-        #if i in temp_st:
 
 st = "leetcode" #"loveleetcode" #"aabb"
 findUniqueChar(st)
